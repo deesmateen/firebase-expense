@@ -1,0 +1,65 @@
+[debug] [2024-02-20T20:38:49.964Z] ----------------------------------------------------------------------
+[debug] [2024-02-20T20:38:49.966Z] Command:       /Users/Deesmateen/.nvm/versions/node/v18.16.1/bin/node /Users/Deesmateen/.nvm/versions/node/v18.16.1/bin/firebase init
+[debug] [2024-02-20T20:38:49.966Z] CLI Version:   13.3.0
+[debug] [2024-02-20T20:38:49.966Z] Platform:      darwin
+[debug] [2024-02-20T20:38:49.967Z] Node Version:  v18.16.1
+[debug] [2024-02-20T20:38:49.968Z] Time:          Tue Feb 20 2024 13:38:49 GMT-0700 (Mountain Standard Time)
+[debug] [2024-02-20T20:38:49.968Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-20T20:38:49.974Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-20T20:38:49.975Z] > authorizing via signed-in user (deesmateen@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/Deesmateen/dev/firebase-expense
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-02-20T20:38:55.240Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-02-20T20:38:55.609Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-02-20T20:38:55.609Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project fir-expense-8e7fc (firebase-expense) 
+[info] 
+=== Hosting Setup
+[debug] [2024-02-20T20:39:04.681Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-expense-8e7fc [none]
+[debug] [2024-02-20T20:39:06.043Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-expense-8e7fc 200
+[debug] [2024-02-20T20:39:06.043Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-expense-8e7fc {"projectId":"fir-expense-8e7fc","projectNumber":"108775306105","displayName":"firebase-expense","name":"projects/fir-expense-8e7fc","resources":{"hostingSite":"fir-expense-8e7fc","storageBucket":"fir-expense-8e7fc.appspot.com","locationId":"us-west3"},"state":"ACTIVE","etag":"1_f24603ba-5051-46ae-8618-b0669ada1a56"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] ✔  Wrote public/404.html 
+[debug] [2024-02-20T20:41:54.901Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-02-20T20:41:55.008Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-02-20T20:41:55.008Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.8.0","browserURL":"https://www.gstatic.com/firebasejs/10.8.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.8.0/firebase.tgz"},"live":{"version":"10.8","browserURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.8/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.8.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.8.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.8.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.8.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.8.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.8.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.8.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.8.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.8.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.8.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/Deesmateen/dev/firebase-expense 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=478430727&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-02-20T20:42:18.302Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-02-20T20:42:18.302Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-02-20T20:42:18.628Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-02-20T20:42:18.628Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-02-20T20:42:18.640Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-02-20T20:42:18.981Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-02-20T20:42:18.981Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"deesmateen","id":11413245,"node_id":"MDQ6VXNlcjExNDEzMjQ1","avatar_url":"https://avatars.githubusercontent.com/u/11413245?v=4","gravatar_id":"","url":"https://api.github.com/users/deesmateen","html_url":"https://github.com/deesmateen","followers_url":"https://api.github.com/users/deesmateen/followers","following_url":"https://api.github.com/users/deesmateen/following{/other_user}","gists_url":"https://api.github.com/users/deesmateen/gists{/gist_id}","starred_url":"https://api.github.com/users/deesmateen/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/deesmateen/subscriptions","organizations_url":"https://api.github.com/users/deesmateen/orgs","repos_url":"https://api.github.com/users/deesmateen/repos","events_url":"https://api.github.com/users/deesmateen/events{/privacy}","received_events_url":"https://api.github.com/users/deesmateen/received_events","type":"User","site_admin":false,"name":"Derek Allen","company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":63,"public_gists":0,"followers":5,"following":2,"created_at":"2015-03-10T19:31:21Z","updated_at":"2024-02-20T20:35:23Z","private_gists":3,"total_private_repos":1,"owned_private_repos":1,"disk_usage":16155,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as deesmateen 
+[info] 
